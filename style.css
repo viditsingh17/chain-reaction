@@ -4,14 +4,58 @@
     padding: 0;
 }
 body{
-    padding: 0;
-    margin: 10px;
     font-family: sans-serif, Handlee;
-    color: rgb(214, 242, 250);
+    color: whitesmoke;
     background: rgb(10, 13, 19);
 }
-h1{
-    font-size: 2.3em;
+
+.wrapper{
+    width: 100%;
+    display: block;
+}
+.header{
+    margin: 20px;
+}
+.header h1{
+    font-size: 3em;
     letter-spacing: 5px;
     font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+.canvas{
+    width: 80%;
+    /* margin: auto; */
+}
+
+.game-info h2{
+    padding: 20px 20px 10px;
+    line-height: 44px;
+}
+
+.game-info p{
+    padding: 0px 20px 10px;
+    line-height: 24px;
+}
+
+.game-info ul{
+    list-style-type: disc;
+    padding-left: 40px;
+}
+.game-info ul li{
+    padding: 5px 0;
+}
+.about-me{
+
+    display: inline;
+}
+.about-me .left{
+    position: relative;
+}
+.about-me-img{
+    width: 100px;
+    border-radius: 20px;
+    margin: 40px 20px;
+}
+.about-me .right{
+    position: relative;
 }

@@ -1,7 +1,8 @@
 //creating simple physics
+let ww = 400, wh = 600
 let w = 10, h = 15
 let a = 40
-
+let scale = 1
 let hi = -1, hj = -1
 let si = hi, sj = hj
 
@@ -10,7 +11,9 @@ let isRed = true
 
 let board = new Array(w)
 function setup(){
-    createCanvas(400, 600)
+    let renderer = createCanvas(ww, wh)
+    renderer.parent("canvas")
+
 
     //filling up the board with cells
     for (let i=0; i<h;i++){
